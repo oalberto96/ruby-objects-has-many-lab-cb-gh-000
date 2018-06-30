@@ -9,4 +9,8 @@ class Song
     @@all << self
   end
 
+  def self.songs_count
+    @@all.size
+  end
+
 end
