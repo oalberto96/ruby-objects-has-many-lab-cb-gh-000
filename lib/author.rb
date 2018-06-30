@@ -23,9 +23,7 @@ class Author
   end
 
   def self.post_count
-    total = 0
-    @@authors.each{|author| total += author.posts.size}
-    total
+    Post.all
   end
 
 
