@@ -13,4 +13,8 @@ class Song
     @@all.size
   end
 
+  def artist_name
+    @artist != nil ? @artist.name : nil
+  end
+
 end
